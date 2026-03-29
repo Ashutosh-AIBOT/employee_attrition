@@ -1,0 +1,46 @@
+|--- OverTime <= 0.50
+|   |--- MonthlyIncome <= 4995.50
+|   |   |--- Age <= 33.50
+|   |   |   |--- MonthlyIncome <= 2153.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- MonthlyIncome >  2153.50
+|   |   |   |   |--- class: 1
+|   |   |--- Age >  33.50
+|   |   |   |--- JobLevel <= 3.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- JobLevel >  3.50
+|   |   |   |   |--- class: 0
+|   |--- MonthlyIncome >  4995.50
+|   |   |--- JobSatisfaction <= 1.50
+|   |   |   |--- DistanceFromHome <= 1.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- DistanceFromHome >  1.50
+|   |   |   |   |--- class: 0
+|   |   |--- JobSatisfaction >  1.50
+|   |   |   |--- YearsAtCompany <= 1.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- YearsAtCompany >  1.50
+|   |   |   |   |--- class: 0
+|--- OverTime >  0.50
+|   |--- JobSatisfaction <= 1.50
+|   |   |--- Age <= 49.50
+|   |   |   |--- MonthlyIncome <= 4834.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- MonthlyIncome >  4834.50
+|   |   |   |   |--- class: 1
+|   |   |--- Age >  49.50
+|   |   |   |--- MonthlyIncome <= 4461.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- MonthlyIncome >  4461.50
+|   |   |   |   |--- class: 1
+|   |--- JobSatisfaction >  1.50
+|   |   |--- MonthlyIncome <= 3299.50
+|   |   |   |--- TotalWorkingYears <= 35.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- TotalWorkingYears >  35.00
+|   |   |   |   |--- class: 1
+|   |   |--- MonthlyIncome >  3299.50
+|   |   |   |--- JobLevel <= 3.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- JobLevel >  3.50
+|   |   |   |   |--- class: 0
